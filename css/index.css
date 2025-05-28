@@ -4,24 +4,43 @@
 }
 html {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  min-height: 100%;
 }
 /* General body settings */
 body {
   margin: 0.5em auto;
   max-width: 75%;
+  min-height: 100%;
   font-family: "Roboto", sans-serif;
   padding: 1rem;
-  color: var(--fontcolor);
-  background-color: var(--bgcolor);
+  color: #DDD;
+  background-color: #1F2D3D;
 }
 h1, h2 {
   text-align: center;
+  margin-top: 0.67em;
+  margin-bottom: 0.50em;
+}
+img {
+  display: block;
+}
+.center {
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bullet {
   list-style-type: disc;
 }
 .outline {
-  border: 1px solid;
+  border: 1px solid #09DDB9;
+  border-radius: 4px;
+}
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 #totop {
   display: block;
@@ -29,7 +48,7 @@ h1, h2 {
   bottom: 1em;
   right: 12.5%;
   margin-right: 0.50em;
-  filter: drop-shadow(1px 1px 2px var(--buttonborder));
+  filter: drop-shadow(1px 1px 2px #DDD);
 }
 #totop a:link {
   font-size: 2.5em;
