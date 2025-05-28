@@ -1,0 +1,37 @@
+## primobrowser.github.io humans.txt ##
+
+# Copyright (c) 2025 Alexander Frick and PrimoBrowser, LLC.
+# https://humanstxt.org/
+
+/* TEAM */
+	
+	Developer: Alexander Frick
+	Role: Main Thorium Developer
+	Twitter: @alex313031
+	GitHub: @Alex313031
+	Email: alex313031@gmail.com
+	From: Oklahoma, US
+	
+	Contributer: @Kirill
+	Role: Content Adder
+	GitHub: @kv199
+	From: Russia > Portugal
+	
+/* THANKS */
+	
+	Web Developer & Contributer: midzer
+	Role: Builder, Tester, Web Hoster
+	GitHub: @midzer
+	From: Munich, Germany
+	
+	The Chromium Authors
+	Role: Upstream Developers
+	Website: https://www.chromium.org/
+	From: WorldWide
+
+/* SITE */
+
+	Last update: 2025/05/28
+	Language: English
+	Doctype: HTML5, CSS, Canvas2D
+	IDE: Geany

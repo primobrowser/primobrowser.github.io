@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- https://primobrowser.github.io/ main index.html -->
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	<!-- Header -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="google-site-verification" content="hifatYlDqXcTUY8nWdPRAB_1R49s17sa6rGUP844IPY"> -->
+    <link rel="preload" href="fonts/roboto-v30-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/index.css">
+    <title>PrimoBrowser Dev Website</title>
+    <meta name="description" content="PrimoBrowser, LLC. Developer Website">
+    <meta name="keywords" content="primobrowser, chromium">
+    <meta name="color-scheme" content="light dark">
+    <link rel="author" href="humans.txt">
+    <link rel="shortcut icon" type="image/png" sizes="48x48" href="favicon48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon16.png">
+    <meta itemprop="image" content="thumb.png">
+    <!-- <meta name="theme-color" content="#ffffff"> -->
+    <script>
+      function toggleDarkMode(useDark) {
+        if (useDark) {
+          document.documentElement.classList.add('dark');
+          document.documentElement.classList.remove('light');
+        } else {
+          document.documentElement.classList.remove('dark');
+          document.documentElement.classList.add('light');
+        }
+      }
+      let useDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (!useDark && localStorage.getItem('dark-mode') === 'true') {
+        useDark = true;
+        toggleDarkMode(useDark);
+      } else if (localStorage.getItem('dark-mode') === 'false') {
+        useDark = false;
+        toggleDarkMode(useDark);
+      }
+    </script>
+</head>
+<body class="outline">
+	<h2><u>PrimoBrowser Developer Bulletins Website</u></h2>
+	<hr>
+	<p>
+	<ul class="bullet">
+	  <li><b>May. 28</b>: &ndash; First ~40% of UI changes contained within 2 commits could potentially be the source of slow tab loading performance.</li>
+	</ul>
+	</p>
+	
+	<div id="totop"><a href="#top" title="Back to top">▲</a></div>
+	
+    <script defer src="js/jquery-3.7.0.slim.min.js"></script>
+</body>
+</html>
